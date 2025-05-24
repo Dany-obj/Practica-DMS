@@ -1,0 +1,41 @@
+.gitignore
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración local
+.vs/
+*.vscode/
+
+# Paquetes NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Archivos de publicación
+publish/
+out/
+
+# Archivos de log y temporales
+*.log
+*.tmp
+
+# Archivos de configuración de Rider
+.idea/
+
+# Archivos de test result
+TestResults/
+*.coverage
+*.coveragexml
+
+# Archivos generados por dotnet watch
+**/hotreload.json
+
+# Secretos de usuario
+secrets.json
